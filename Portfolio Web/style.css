@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:black;
+}
+.head{
+    display: flex;
+}
+#social{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+i{
+    font-size: 35px;
+    color: #FFD700;
+}
+i:hover{
+    color: #B913F3;
+}
+.side a{
+    text-decoration: none;
+}
+.side{
+    margin-left: 1rem;
+    position: absolute;
+}
+.line{
+    margin-left: 20px;
+}
+.logo{
+    margin-top: 0.5rem;
+    height: 10vh;
+}
+nav{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    display: flex;
+}
+nav h1{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    line-height: 20px;
+}
+nav ul{
+    margin-top: 1.5rem;
+    margin-left: 24rem;
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+   margin-left: 3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Mitr', sans-serif;
+    color: rgba(155, 149, 149, 1);
+    line-height: 31px;
+}
+nav ul li a:hover{
+    color:rgba(255, 215, 0, 1) ;
+}
+nav ul li span{
+    color: rgba(185, 19, 243, 1);
+}
+.intro{
+    display: flex;
+}
+.intro .recimg{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.greet img{
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+.greet .talk{
+    display: flex;
+    width: 220px;
+    height: 70px;
+    border: 1px solid rgba(255, 215, 2, 1);
+    margin-left: 5rem;
+}
+.greet .talk:hover{
+   background-color: rgba(110, 9, 177, 0.2);
+}
+.greet .talk .talkwhat{
+    width: 30px;
+    height: 10vh;
+    background: none;
+    margin: 0;
+    margin-top: 0.3rem;
+    margin-left: 1.5rem;
+}
+.greet .talk .let:hover{
+ background: none;
+}
+.talklink{
+    text-decoration: none;
+}
+.greet h1{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-family:'Press Start 2P', cursive;
+}
+.greet p{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color:rgba(155, 149, 149, 1);
+    font-family:'Mitr', sans-serif ;
+}
+.talk{
+    margin-top: 3rem;
+}
+.working{
+    margin-left: 7rem;
+}
+.story{
+    display: flex;
+}
+.story .mask{
+    margin-left: 5rem;
+    height: 50vh;
+}
+.story .cont h1{
+    color: rgba(255, 215, 0, 1);
+    font-size: 60px;
+    font-family: 'Vidaloka', serif;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.story .cont p{
+    color: white;
+    font-size: 11px;
+    font-family: 'Vidaloka', serif;
+    margin-left: 10rem;   
+}
+.uiux{
+    margin-top: 4rem;
+    margin-left: 12rem;
+    height: 15vh;
+}
+.what h1{
+    margin-top: 3rem;
+    margin-left: 12rem;
+    color:rgba(255, 215, 0, 1) ;
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif ;
+}
+.web1{
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+.what .web1 .des:hover{
+    background-color:rgba(185, 19, 243, 1);
+}
+.what .web1 .des2:hover{
+    background-color:rgba(185, 19, 243, 1);
+}
+.web1 h1{
+    font-size: 24px;
+}
+
+.web2 h1{
+    font-size: 24px;
+}
+.des{
+    margin-left: 5rem;
+    width: 400px;
+    height: 110px;
+    background: #111111;
+    border-radius: 5px;
+    display: flex;
+}
+.des2{
+    width: 400px;
+    height: 110px;
+    background: #111111;
+    border-radius: 5px;
+    margin-left: 10rem;
+    display: flex;
+}
+.web2{
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+.what .web2 .des:hover{
+    background-color:rgba(185, 19, 243, 1);
+}
+.what .web2 .des2:hover{
+    background-color:rgba(185, 19, 243, 1);
+}
+.what .web1 a{
+    text-decoration: none;
+}
+.what .web2 a{
+    text-decoration: none;
+}
+footer h1{
+    color:rgba(255, 215, 2, 1) ;
+    font-size: 36px;
+    font-family: 'Old Standard TT', serif;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+footer h2{
+    color: white;
+    font-size: 48px;
+    font-family: 'Old Standard TT', serif;
+    margin-left: 30%;
+}
+footer h2 span{
+    color:rgba(255, 215, 2, 1) ;
+}
+footer .firstrow{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+footer input{
+    width: 410px;
+    height: 10vh;
+    border: 1px solid rgba(255, 215, 2, 1);
+    border-radius: 20px;
+    padding: 12px;
+
+}
+footer input:hover{
+    border: 1px solid #FFD700;
+}
+::placeholder{
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+footer .secondrow{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+#email{
+    margin-left: 2.5rem;
+}
+#subject{
+    margin-left: 3.5rem;
+}
+
+input[type=submit] {
+    width: 500px;
+    height: 95px;
+    margin-top: 3rem;
+    margin-left: 30%;
+    margin-bottom: 3rem;
+    background-color:rgba(255, 215, 2, 1) ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  input[type=submit]:hover{
+    background-color: #FFD700;
+  }
+footer p{
+    font-family: 'Vidaloka', serif;
+    color: #565454;
+    margin-left:40% ;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1440px) {
+    
+}
+@media (min-width: 200px) and (max-width: 640px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    i{
+        font-size: 20px;
+    }
+    .line{
+        height: 10vh;
+    }
+    .side{
+        margin-left: 0.2rem;
+    }
+    .logo{
+        margin-top: 0.2rem;
+        height: 6vh;
+        width: 10%;
+        margin-left: 50%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav h1{
+        margin-top: 1rem;
+        margin-left: 40%;
+        width: 300px;
+        line-height: 10px;
+    }
+    nav ul{
+        margin-top: 2rem;
+        margin-left: 10px;
+    }
+    .intro .recimg{
+        height: 40vh;
+        margin-bottom: 1rem;
+        margin-left: 2.5rem;
+    }
+    .greet img{
+        height: 5vh;
+        margin-left: 40px;
+    }
+    .greet h1{
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 40px;
+        width: 300px;
+    }
+    .greet p{
+        width: 200px;
+        margin-top: 4rem;
+        margin-left: 40px;
+    }
+    .working{
+        height: 5vh;
+        margin-top: 0;
+    }
+    .greet .talk{
+        width: 150px;
+        height: 7vh;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .greet .talk .talkwhat{
+        margin-top: 0;
+        width: 20px;
+        height: 7vh; 
+    }
+    .story .mask{
+        margin-left: 5rem;
+        height: 30vh;
+    }
+    .story .cont h1{
+        font-size: 40px;
+        margin-left: 5rem;
+    }
+    .story .cont p{
+        font-size: 6px;
+        margin-left: 5rem;
+    }
+    .uiux{
+        margin-top: 2rem;
+        margin-left: 5rem;
+        height: 7vh;
+    }
+    .what h1{
+        font-size: 20px;
+    }
+    .web1{
+        flex-direction: column;
+    }
+    .web2{
+        flex-direction: column;
+    }
+    .des{
+        margin-left: 3rem;
+    }
+    .des2{
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    
+    .view{
+        margin-left: 50%;
+    }
+    .view h1{
+        margin-left: 0;
+        text-align: center;
+    }
+    footer h1{
+        font-size: 24px;
+    }
+    footer h2{
+        margin-top: 2rem;
+        margin-left: 50%;
+        font-size: 24px;
+        width: 200px;
+    }
+    footer .firstrow{
+        flex-direction: column;
+        margin-left: 8rem;
+    }
+    #number{
+        margin-top: 5rem;
+    }
+    footer .secondrow{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    #email{
+        margin-left: 1rem;
+    }
+    #subject{
+        margin-left: 1rem;
+    }
+    textarea .mesaage{
+        margin-left: 300px;
+    }
+    input .send{
+        height: 10vh;
+    }
+    footer p{
+        margin-left: 50%;
+        width: 300px;
+    }
+    input[type=submit] {
+        width: 300px;
+        height: 90px;
+        margin-left: 45%;
+    }
+}
+@media (min-width: 641px) and (max-width: 1150px){
+    nav ul{
+        margin-left: 24px;
+    }
+    .story .cont h1{
+        margin-left: 7rem;
+    }
+    .story .cont p{
+        margin-left: 7rem;
+    }
+    .uiux{
+        margin-left: 7rem;
+    }
+    .des{
+        margin-left: 1rem;
+    }
+    .des2{
+        margin-left: 1rem;
+    }
+    .web1{
+        margin-left: 5rem;
+    }
+    .web2{
+        margin-left: 5rem;
+    }
+    footer .firstrow{
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    #Number{
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+    footer .secondrow{
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 20%;
+    }
+    #email{
+        margin-left: 5rem;
+    }
+    #subject{
+        margin-left: 5rem;
+    }
+}
